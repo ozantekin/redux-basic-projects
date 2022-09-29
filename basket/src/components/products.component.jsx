@@ -30,7 +30,6 @@ const Products = (props) => {
 const mapStateToProps = (state) => {
   return {
     productList: state.productList,
-    basket: state.basket,
   }
 }
 
