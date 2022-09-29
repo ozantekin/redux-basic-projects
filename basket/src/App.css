@@ -13,10 +13,6 @@
   align-items: center;
 }
 
-.App > h1 > img {
-  width: 20px;
-}
-
 .App > div > h2 {
   font-size: 18px;
   display: flex;

@@ -28,7 +28,7 @@ const BasketCart = (props) => {
   )
 }
 
-export const mapStateToProps = (state) => {
+const mapStateToProps = (state) => {
   return {
     basket: state.basket,
   }
