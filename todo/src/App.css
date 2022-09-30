@@ -1,0 +1,81 @@
+.App {
+  width: 75vw;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.adding-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 15%;
+  margin-bottom: 1rem;
+}
+
+.adding-input > h1 {
+  padding-bottom: 1rem;
+}
+
+.adding-input input,
+.adding-input button,
+.clear {
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.adding-input input {
+  background: #263340;
+  color: #fff;
+}
+
+.adding-input button {
+  background: #188cd8;
+  color: inherit;
+  border-radius: 0 5px 5px 0;
+}
+
+.notes-container {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.clear {
+  background: #f4212d;
+  color: inherit;
+  border-radius: 5px;
+  margin: auto;
+  margin: 1rem 0;
+}
+
+.notes-container > li {
+  padding: 8px 0;
+  width: 75vw;
+  border-bottom: 1px solid #37444d;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.notes-container > li:first-child {
+  border-top: 1px solid #37444d;
+}
+
+.notes-container > li:last-child {
+  border-bottom: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #159b6c;
+  color: #37444d;
+}
