@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.counter-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-inner p {
+  margin: 0.5rem 1rem;
+}
